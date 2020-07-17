@@ -285,6 +285,13 @@ public void draw() {
   textAlign(LEFT, TOP);
   text("0을 눌러 원래 화면크기 전환", 1510, 20);
 
+  fill(50, 60, 80);
+  textSize(20);
+  textAlign(LEFT, BOTTOM);
+  text("CopyRight by JM", 1500+10, height - 90);
+  text("james1990a@sasa.hs.kr", 1500+10, height - 60);
+  text("무단 복제 및 재배포를 금지합니다.", 1500+10, height - 30);
+
   if (window_num == 0) {
     //main
     noStroke();
@@ -425,6 +432,7 @@ public void draw() {
     noStroke();
     fill(100);
     rect(1, 0, 1500/2+1, 80, 0, 0, 8, 8);
+
     timeline_button.drawB();
     dow_button.drawB();
 
